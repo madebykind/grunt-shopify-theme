@@ -53,7 +53,6 @@ module.exports = function (grunt) {
       , pruneTaskConfig
       , haves = {}
       , ignores = me.data.dontPrune
-      , taskOptions
       ;
 
     if ( !me.data.assets ) {
